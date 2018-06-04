@@ -64,6 +64,14 @@ import matplotlib.pyplot as plt
 
 #print(m1 ** 2) #eleva os valores da matriz por 2
 
-salario = numpy.array([100,200,300,500,400,150]) # criação do array
-plt.plot(salario, c='black',ls='--', marker='s') # Criação do gráfico, seleção dos dados e das caracteristicas
-plt.show() # exibição do gráfico
+arr = numpy.array([1,2,3])
+print(numpy.insert(arr, 1, 10))
+print(arr)
+
+a = numpy.array([[1,2],[3,4]])
+print(a)
+print(a.ndim)
+
+print(a.sum(axis=0))
+print(a.sum(axis=1))
+print(numpy.insert(numpy.insert(a, 2, 5, axis = 0), 2, 5, axis = 1))
