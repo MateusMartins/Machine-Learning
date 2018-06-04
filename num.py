@@ -64,14 +64,14 @@ import matplotlib.pyplot as plt
 
 #print(m1 ** 2) #eleva os valores da matriz por 2
 
-arr = numpy.array([1,2,3])
-print(numpy.insert(arr, 1, 10))
-print(arr)
+#arr = numpy.array([1,2,3])
+#print(numpy.insert(arr, 1, 10))
+#print(arr)
 
-a = numpy.array([[1,2],[3,4]])
-print(a)
-print(a.ndim)
+#a = numpy.array([[1,2],[3,4]])
+#print(a)
+#print(a.ndim)
 
-print(a.sum(axis=0))
-print(a.sum(axis=1))
-print(numpy.insert(numpy.insert(a, 2, 5, axis = 0), 2, 5, axis = 1))
+#print(a.sum(axis=0))
+#print(a.sum(axis=1))
+#print(numpy.insert(numpy.insert(a, 2, 5, axis = 0), 2, 5, axis = 1))
