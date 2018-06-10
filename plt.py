@@ -7,6 +7,7 @@ import matplotlib.pyplot as plt
 
 salarios_marcos = numpy.array([100,200,400,300])
 salarios_gileno = numpy.array([50,300,500,450])
+
 salarios_mateus = numpy.array([200,150,300,700])
 
 plt.plot(salarios_marcos, c='black',ls='--', marker='s', label = 'Salários Marcos')
